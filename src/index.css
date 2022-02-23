@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+*{
+  box-sizing:border-box
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spartan', sans-serif;
+  background-color: hsl(268, 75%, 9%);
+}
+
+.App{
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+
+
+.listbox{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ height: 90%;
+ /* border: 1px solid red; */
+}
+
+h1{
+  color: hsl(52, 100%, 53%);
+  text-align: center;
+  text-shadow:  2px 2px blueviolet;
+}
+
+
+.list{
+  list-style: none;
+  width: 500px;
+  margin: auto 20px;
+  padding: 20px 15px;
+  outline: 2px solid hsl(52, 100%, 62%);
+  background: hsl(268, 47%, 21%);
+  text-transform: capitalize;
+  box-shadow: 0 0 10px 5px hsl(268, 56%, 20%);
+}
+
+.list li{
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+  padding: 15px;
+  margin-bottom: 5px;
+  transition: all 0.2s;
+  cursor:grab;
+  text-align: center;
+}
+
+.list li:hover{
+  background-color: hsl(268, 56%, 40%) !important;
+  box-shadow: 0 0 3px 2px hsl(268, 56%, 30%) inset;
+  
+}
